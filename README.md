@@ -189,39 +189,11 @@ Edit `styles.css` and modify the CSS variables in the `:root` section:
 }
 ```
 
-### Adding Sound Effects
-Place your audio files in the `assets/sounds/` directory:
-- `click.mp3` - Button click sound
-- `move.mp3` - Move placement sound
-- `win.mp3` - Victory sound
-- `draw.mp3` - Draw notification sound
-
 ### Modifying AI Behavior
 Edit `ai_engine.py` to adjust:
 - Easy mode randomness
 - Medium mode strategy percentages
 - Hard mode (already optimal with Minimax)
-
-## 🧪 Testing
-
-### Manual Testing Checklist
-- [ ] Player vs Player mode works correctly
-- [ ] Player vs Computer Easy mode makes random moves
-- [ ] Player vs Computer Medium mode uses strategy
-- [ ] Player vs Computer Hard mode is unbeatable
-- [ ] Win detection works for all combinations
-- [ ] Draw detection works correctly
-- [ ] Scoreboard updates accurately
-- [ ] Game history displays correctly
-- [ ] Reset functionality works
-- [ ] Responsive design on mobile/tablet/desktop
-
-### Test Scenarios
-1. **Win Conditions**: Test all 8 winning combinations
-2. **Draw Condition**: Fill board without a winner
-3. **AI Behavior**: Test each difficulty level
-4. **Score Persistence**: Verify scores persist across games
-5. **Settings Changes**: Test changing modes and difficulty mid-game
 
 ## 📝 Code Architecture
 
@@ -246,51 +218,11 @@ Edit `ai_engine.py` to adjust:
 - Responsive design rules
 - Glassmorphism effects
 
-## 🐛 Troubleshooting
-
-### Application won't start
-- Ensure Python 3.11+ is installed
-- Verify all dependencies are installed: `pip install -r requirements.txt`
-- Check that you're in the correct directory
-
-### Styling not appearing
-- Ensure `styles.css` is in the same directory as `app.py`
-- Clear browser cache
-- Restart the Streamlit server
-
-### AI not responding
-- Check that `ai_engine.py` is present
-- Verify difficulty setting in sidebar
-- Try restarting the game
-
-## 🚀 Future Enhancements
-
-Potential features for future versions:
-- Multiplayer online mode
-- Leaderboard system
-- Additional board sizes (4x4, 5x5)
-- Tournament mode
-- Achievement system
-- Sound effects integration
-- Animated winning line
-- Player profiles
-- Game replay system
 
 ## 📄 License
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on the repository.
 
 ---
 
