@@ -222,10 +222,3 @@ Edit `ai_engine.py` to adjust:
 ## 📄 License
 
 This project is open source and available under the MIT License.
-
-
----
-
-**Built with ❤️ using Python and Streamlit**
-
-Enjoy the ultimate Tic Tac Toe gaming experience! 🎮✨
